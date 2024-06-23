@@ -64,15 +64,16 @@ header a:hover {
 .btn {
     display: inline-block;
     color: #fff;
-    background: #333;
-    padding: 7px 20px;
+    background: #50b3a2;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
+    margin: 10px 0;
 }
 
 .btn:hover {
-    background: #555;
+    background: #428b87;
 }
 
 main {
@@ -93,4 +94,17 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+#tutorial h2, #tutorial h3 {
+    color: #50b3a2;
+}
+
+#tutorial p {
+    margin-bottom: 15px;
+}
+
+#tutorial video {
+    display: block;
+    margin: 20px auto;
 }
